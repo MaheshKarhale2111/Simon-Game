@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+  background-color: #011f3f;
+}
+
+h1 {
+  font-family: "Paytone One", sans-serif;
+  font-family: "Press Start 2P", cursive;
+  color: #fef2bf;
+  font-size: 3rem;
+  text-shadow: 9px 2px black;
+}
+h2 {
+  font-family: "Press Start 2P", cursive;
+  color: #fef2bf;
+  font-size: 2.5rem;
+  text-shadow: 7px 2px black;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  box-shadow: 9px 10px #525151;
+  border: solid 10px black;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 30px;
+}
+#highscore {
+  position: absolute;
+  float: right;
+  right: 50px;
+  /* top: 10%; */
+  font-size: 2rem;
+}
+
+.container {
+  margin-top: 5%;
+}
+.small-container1 {
+  margin-top: 5%;
+}
+
+footer {
+  margin: 0 0 1% 50%;
+  color: #fef2bf;
+  text-shadow: 1px 2px black;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  position: absolute;
+  transform: translateX(-50%);
+  bottom: 0;
+  letter-spacing: 3px;
+}
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
